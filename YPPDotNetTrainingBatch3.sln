@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YPPDotNetTrainingBatch3.Con
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YPPDotNetTrainingBatch3.ConsoleApp2", "YPPDotNetTrainingBatch3.ConsoleApp2\YPPDotNetTrainingBatch3.ConsoleApp2.csproj", "{79DFEEAF-5C82-4169-A095-72C44D98B87A}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "YPPDotNetTrainingBatch3.ConsoleApp3", "YPPDotNetTrainingBatch3.ConsoleApp3", "{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Item", "Solution Item", "{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}"
 	ProjectSection(SolutionItems) = preProject
 		README.md = README.md
 	EndProjectSection
@@ -47,9 +47,6 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(NestedProjects) = preSolution
-		{F50A2F6D-EA5C-47A2-AA56-C38C3007A868} = {8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E314D31F-CAAB-42D4-BBC5-9DED81F79A0F}
