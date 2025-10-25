@@ -2,44 +2,26 @@
 
 using Microsoft.Data.SqlClient;
 using System.Data;
+using YPPDotNetTrainingBatch3.ConsoleApp2;
 
 Console.WriteLine("Hello, World!");
 
-SqlConnectionStringBuilder sqlConnectionStringBuilder = new SqlConnectionStringBuilder();
-sqlConnectionStringBuilder.DataSource = ".";
-sqlConnectionStringBuilder.InitialCatalog = "Batch3MiniPOs";
-sqlConnectionStringBuilder.UserID = "sa";
-sqlConnectionStringBuilder.Password = "sasa@123";
-sqlConnectionStringBuilder.TrustServerCertificate = true;
+//ProductService productService = new ProductService();
+//productService.Read();
+//productService.Create();
+//productService.Update();
+//productService.Delete();
 
+//ProductDapperService productDapperService = new ProductDapperService();
+//productDapperService.Read();
+//productDapperService.Create();
+//productDapperService.Update();
+//productDapperService.Delete();
 
-SqlConnection conncetion = new SqlConnection(sqlConnectionStringBuilder.ConnectionString);
-
-conncetion.Open();
-
-string query = @"SELECT [ProductId]
-                  ,[ProductName]
-                  ,[Price]
-                  ,[DeleteFlag]
-              FROM [dbo].[Tbl_Product]";
-
-SqlCommand cmd = new SqlCommand(query, conncetion);
-SqlDataAdapter adapter = new SqlDataAdapter(cmd);
-DataTable dt = new DataTable();
-adapter.Fill(dt);
-
-conncetion.Close();
-
-for (int i =0; i < dt.Rows.Count; i++)
-{
-    DataRow row = dt.Rows[i];
-    // Console.WriteLine(row["ProductId"]);
-    Console.WriteLine("ProductName => " + row["ProductName"]);
-    Console.WriteLine("Price =>" + row["Price"]);
-    // Console.WriteLine(row["DeleteFlag"]);
-    Console.WriteLine("----------------------------------------");
-
-}
-
+ProductEFCoreService productEFCoreService = new ProductEFCoreService();
+productEFCoreService.Read();
+productEFCoreService.Create();
+productEFCoreService.Update();
+productEFCoreService.Delete();
 
 Console.ReadLine();

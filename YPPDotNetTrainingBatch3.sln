@@ -7,6 +7,17 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YPPDotNetTrainingBatch3.Con
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YPPDotNetTrainingBatch3.ConsoleApp2", "YPPDotNetTrainingBatch3.ConsoleApp2\YPPDotNetTrainingBatch3.ConsoleApp2.csproj", "{79DFEEAF-5C82-4169-A095-72C44D98B87A}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "YPPDotNetTrainingBatch3.ConsoleApp3", "YPPDotNetTrainingBatch3.ConsoleApp3", "{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YPPDotNetTrainingBatch3.ConsoleApp2.Database", "YPPDotNetTrainingBatch3.ConsoleApp2.Database\YPPDotNetTrainingBatch3.ConsoleApp2.Database.csproj", "{690C8AB8-5AAE-42C3-8AA4-2FE9145B63F2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YPPDotNetTrainingBatch3.ConsoleApp3", "YPPDotNetTrainingBatch3.ConsoleApp3\YPPDotNetTrainingBatch3.ConsoleApp3.csproj", "{F50A2F6D-EA5C-47A2-AA56-C38C3007A868}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YPPDotNetTrainingBatch3.ConsoleApp3.Database", "YPPDotNetTrainingBatch3.ConsoleApp3.Database\YPPDotNetTrainingBatch3.ConsoleApp3.Database.csproj", "{47B0596D-4913-4918-B093-7ADC72C8D313}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,9 +32,24 @@ Global
 		{79DFEEAF-5C82-4169-A095-72C44D98B87A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{79DFEEAF-5C82-4169-A095-72C44D98B87A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{79DFEEAF-5C82-4169-A095-72C44D98B87A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{690C8AB8-5AAE-42C3-8AA4-2FE9145B63F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{690C8AB8-5AAE-42C3-8AA4-2FE9145B63F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{690C8AB8-5AAE-42C3-8AA4-2FE9145B63F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{690C8AB8-5AAE-42C3-8AA4-2FE9145B63F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F50A2F6D-EA5C-47A2-AA56-C38C3007A868}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F50A2F6D-EA5C-47A2-AA56-C38C3007A868}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F50A2F6D-EA5C-47A2-AA56-C38C3007A868}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F50A2F6D-EA5C-47A2-AA56-C38C3007A868}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47B0596D-4913-4918-B093-7ADC72C8D313}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47B0596D-4913-4918-B093-7ADC72C8D313}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47B0596D-4913-4918-B093-7ADC72C8D313}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47B0596D-4913-4918-B093-7ADC72C8D313}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F50A2F6D-EA5C-47A2-AA56-C38C3007A868} = {8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E314D31F-CAAB-42D4-BBC5-9DED81F79A0F}
